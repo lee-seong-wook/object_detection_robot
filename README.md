@@ -1,4 +1,7 @@
-# object-detection-robot-
+# object-detection-robot
+<div align="center">
+<img width="500" alt="image" src="https://github.com/lee-seong-wook/object-detection-robot-/assets/130055880/68c49e59-2b6d-4b76-8db3-d72ced890d3f">
+
 ## 팀 소개
 
 |      이성욱       |          이용진         |       이경현         | 

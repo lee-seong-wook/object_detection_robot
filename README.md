@@ -1,10 +1,10 @@
 # object-detection-robot-
- ## 팀 소개
+## 팀 소개
 
 |      이성욱       |          이용진         |       이경현         | 
 | :------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | 
-|   <img width="160px" src="https://user-images.githubusercontent.com/50205887/205326013-af001243-a77d-4601-8bfc-aa713931cf95.png" />    |                      <img width="160px" src="https://user-images.githubusercontent.com/50205887/207570536-f5a82e48-99a1-4399-91d3-75fc5f8f3349.png" />    |                   <img width="160px" src="https://user-images.githubusercontent.com/50205887/207570634-247c3715-a54e-4f63-8c08-9b266f8a35f7.png"/>   |
-
+|   <img width="100px" src="https://github.com/lee-seong-wook/object-detection-robot-/assets/130055880/fafff293-d1bd-435f-bfe4-fa1f49dedee6" />    |                      <img width="160px" src="https://user-images.githubusercontent.com/50205887/207570536-f5a82e48-99a1-4399-91d3-75fc5f8f3349.png" />    |                   <img width="160px" src="https://user-images.githubusercontent.com/50205887/207570634-247c3715-a54e-4f63-8c08-9b266f8a35f7.png"/>   |
+| 대림대학교 메카트로닉스학과 3학년 | 대림대학교 메카트로닉스학과 3학년 | 대림대학교 메카트로닉스학과 3학년 |
 
 
 

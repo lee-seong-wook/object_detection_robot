@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 
 # 색상 범위 (BGR 포맷)  블라드 스키 박사도 BGR로 사용하는 데는 다른 이유가 있던 것이 아니라 /n
-OpenCV를 만들던 초창기 카메라 산업 개발자들이 BGR을 많이 썼기 때문에 그 자신도 그냥 아무 이유 없이 BGR을 선택하게 된 것
+# OpenCV를 만들던 초창기 카메라 산업 개발자들이 BGR을 많이 썼기 때문에 그 자신도 그냥 아무 이유 없이 BGR을 선택하게 된 것
 
 lower_color = np.array([100, 50, 50])
 upper_color = np.array([130, 255, 255])

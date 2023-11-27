@@ -29,7 +29,7 @@ set_angle(2,45)
 set_angle(4,140)
 
 while True:
-    cap = cv2.VideoCapture(0) # 노트북 웹캠을 카메라로 사용
+    cap = cv2.VideoCapture(0) # 카메라 사용하는 거에 따라 숫자 변경 
     cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
     cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
     
@@ -49,20 +49,20 @@ while True:
         class_label = int(detection[5])
         confidence = detection[4]
 
-        if confidence >= 0.7:
+        if confidence >= 0.9:
             print("Class Label:", class_label)
             print("Confidence:", confidence)
-            print("개체가 인식되었습니다.")
+            print("객체가 인식되었습니다.")
         
             if class_label == 0:  # circle의 클래스 레이블
                     object_circle_detected = True
             elif class_label == 1:  # square의 클래스 레이블
                     object_square_detected = True
-        elif confidence < 0.7:
-             print("개체가 인식되지 않았습니다.")
+        elif confidence < 0.9:
+             print("객체가 인식되지 않았습니다.")
 
     if class_label == -1:
-        print("개체가 인식되지 않았습니다.")
+        print("객체가 인식되지 않았습니다.")
 
     set_angle(0,100)
     time.sleep(2)
@@ -78,11 +78,11 @@ while True:
     set_angle(1,90)
     time.sleep(2)
 
-    if confidence >= 0.7:
+    if confidence >= 0.9:
         set_angle(0,10)
         time.sleep(2)
 
-    elif class_label == -1 or confidence < 0.7:
+    elif class_label == -1 or confidence < 0.9:
         set_angle(0,170)
         time.sleep(2)
 

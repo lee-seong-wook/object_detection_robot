@@ -7,7 +7,7 @@ import time
 model = torch.hub.load('ultralytics/yolov5', 'custom', path='학습시킨 pt파일 경로')
 
 robot_handle=Adafruit_PCA9685.PCA9685()
-servoMin=150
+servoMin=150 #servo motor는 mg996을 사용
 servoMax=550
 
 def map(value,min_angle,max_angle,min_pulse,max_pulse):
@@ -29,7 +29,7 @@ set_angle(2,45)
 set_angle(4,140)
 
 while True:
-    cap = cv2.VideoCapture(0) # 카메라 사용하는 거에 따라 숫자 변경 
+    cap = cv2.VideoCapture(0) # 외장 카메라의 경우는 1, 보통은 0을 사
     cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
     cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
     

@@ -6,7 +6,7 @@
 
 |     팀장: 이성욱       |         팀원: 이용진         |      팀원: 이경현         | 
 | :------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | 
-|   <img width="90px" src="https://github.com/lee-seong-wook/object_detection_robot/assets/130055880/08098d0e-c8d1-40de-a8a6-c5b732199f74" />    |                      <img width="160px" src="https://github.com/lee-seong-wook/object-detection-robot-/assets/130055880/b032aa51-f0d0-4354-b310-d57b3549b58a" />    |                  <img width="160px" src="https://github.com/lee-seong-wook/object-detection-robot-/assets/130055880/01beb4ea-ef4f-4a5a-8c83-c5b6dc25552e"/>   |
+|  <img src="https://github.com/lee-seong-wook/object_detection_robot/assets/130055880/9cc35f65-3f98-4a41-93a9-36c917efd2ab" width="160" height="auto">    |                      <img  width="160" height="auto" src="https://github.com/lee-seong-wook/object-detection-robot-/assets/130055880/b032aa51-f0d0-4354-b310-d57b3549b58a" />    |                  <img  width="160" height="auto" src="https://github.com/lee-seong-wook/object-detection-robot-/assets/130055880/01beb4ea-ef4f-4a5a-8c83-c5b6dc25552e"/>   |
 | 대림대학교 메카트로닉스과 3학년 | 대림대학교 메카트로닉스과 3학년 | 대림대학교 메카트로닉스과 3학년 |
 |  로봇 동작 제어 및 객체인식 개발     |  로봇 동작 제어 및 객체인식 개발   | 하드웨어 제작 및 모델링    |
 

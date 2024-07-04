@@ -29,8 +29,11 @@ HSV 값으로 물체를 분류해 로봇 팔을 제어하는 코드, YOLOv5 pt �
 
 ```bash
 $ sudo apt-get install git build-essential python-dev
+
 $ git clone https://github.com/adafruit/Adafruit_Python_PCA9685.git
+
 $ cd Adafruit_Python_PCA9685
+
 $ sudo python3 setup.py install
 ```
 ---------------------------

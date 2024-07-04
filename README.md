@@ -6,7 +6,7 @@
 
 |     팀장: 이성욱       |         팀원: 이용진         |      팀원: 이경현         | 
 | :------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | 
-|   <img width="160px" src="https://github.com/lee-seong-wook/object-detection-robot-/assets/130055880/81cae49a-dc9d-4fbd-81ad-cae715314337" />    |                      <img width="160px" src="https://github.com/lee-seong-wook/object-detection-robot-/assets/130055880/b032aa51-f0d0-4354-b310-d57b3549b58a" />    |                  <img width="160px" src="https://github.com/lee-seong-wook/object-detection-robot-/assets/130055880/01beb4ea-ef4f-4a5a-8c83-c5b6dc25552e"/>   |
+|   <img width="90px" src="https://github.com/lee-seong-wook/object_detection_robot/assets/130055880/08098d0e-c8d1-40de-a8a6-c5b732199f74" />    |                      <img width="160px" src="https://github.com/lee-seong-wook/object-detection-robot-/assets/130055880/b032aa51-f0d0-4354-b310-d57b3549b58a" />    |                  <img width="160px" src="https://github.com/lee-seong-wook/object-detection-robot-/assets/130055880/01beb4ea-ef4f-4a5a-8c83-c5b6dc25552e"/>   |
 | 대림대학교 메카트로닉스과 3학년 | 대림대학교 메카트로닉스과 3학년 | 대림대학교 메카트로닉스과 3학년 |
 |  로봇 동작 제어 및 객체인식 개발     |  로봇 동작 제어 및 객체인식 개발   | 하드웨어 제작 및 모델링    |
 
@@ -23,9 +23,9 @@ $ cd Adafruit_Python_PCA9685
 
 $ sudo python3 setup.py install
 
-로봇암의 경우 3D프린터로 인쇄하여 사용했습니다.
+로봇암의 경우 SOLID WOKRS로 모델링 한 후에 3D프린터로 출력하여 사용했습니다.
 
-팔의 각도는 물건 분류에 따른 위치선정 이외에 자동으로 위치를 잡는게 아니기 때문에 각 설정이 따로 필요 합니다.
+팔의 각도는 물건 분류에 따른 위치선정 이외에 자동으로 위치를 잡는게 아니기 때문에 각도 설정이 따로 필요 합니다.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -33,7 +33,7 @@ $ sudo python3 setup.py install
 
 
 
-데이터 수집후 증강(augmentaion) 기법을 사용하여 약 2200장의 사진을 수집 후 라벨링을 진행하였습니다.
+데이터 수집후 증강(augmentaion) 기법을 사용하여 약 2200장의 사진을 수집 후 라벨링(BBox)을 진행했습니다.
 
 ![image](https://github.com/lee-seong-wook/object-detection-robot-/assets/130055880/2cee1a36-778c-4070-b86f-53e4de294afd)
 

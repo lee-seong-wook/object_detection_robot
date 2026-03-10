@@ -2,7 +2,7 @@
 
 > A robotic arm prototype for object detection, HSV-based sorting, and dataset-driven vision control on Raspberry Pi.
 
-![Object Detection Robot](final.jpg)
+![Object Detection Robot Cover](https://github.com/lee-seong-wook/object-detection-robot-/assets/130055880/68c49e59-2b6d-4b76-8db3-d72ced890d3f)
 
 ## Overview
 object_detection_robot은 객체 인식 결과를 바탕으로 로봇 팔을 제어하는 프로토타입입니다. 색상 기반 HSV 분류와 YOLOv5 기반 객체 인식 실험을 함께 진행했고, 데이터 수집, 증강, 라벨링, 로직도 설계까지 직접 연결했습니다. 라즈베리파이와 PCA9685 서보모터 드라이버를 사용해 비전 모델 결과를 실제 동작으로 이어지도록 구성했습니다.
@@ -35,27 +35,35 @@ object_detection_robot은 객체 인식 결과를 바탕으로 로봇 팔을 제
 - `robot arm.py`: 객체 인식 결과에 따른 서보모터 제어 로직
 - 로봇 팔은 SolidWorks 모델링 후 3D 프린팅 부품으로 제작했습니다.
 
-## Images / Demo
+## Project Gallery
+### Prototype View
+![Object Detection Robot Prototype](final.jpg)
+
+### Dataset Preparation
+![Dataset Preparation](https://github.com/lee-seong-wook/object-detection-robot-/assets/130055880/2cee1a36-778c-4070-b86f-53e4de294afd)
+
+### System Logic
 ![Logic Diagram](https://github.com/lee-seong-wook/object-detection-robot-/assets/130055880/7b675dbb-b868-46c8-8d8c-7f1a5ced238b)
 
 <details>
-<summary>Legacy Notes</summary>
+<summary>Team</summary>
 
-### Team
-| Name | Role |
-| --- | --- |
-| 이성욱 | 로봇 동작 제어 및 객체 인식 개발 |
-| 이용진 | 로봇 동작 제어 및 객체 인식 개발 |
-| 이경현 | 하드웨어 제작 및 모델링 |
+| Name | Photo | Role |
+| --- | --- | --- |
+| 이성욱 | ![이성욱](https://github.com/lee-seong-wook/object_detection_robot/assets/130055880/9cc35f65-3f98-4a41-93a9-36c917efd2ab) | 로봇 동작 제어 및 객체 인식 개발 |
+| 이용진 | ![이용진](https://github.com/lee-seong-wook/object-detection-robot-/assets/130055880/b032aa51-f0d0-4354-b310-d57b3549b58a) | 로봇 동작 제어 및 객체 인식 개발 |
+| 이경현 | ![이경현](https://github.com/lee-seong-wook/object-detection-robot-/assets/130055880/01beb4ea-ef4f-4a5a-8c83-c5b6dc25552e) | 하드웨어 제작 및 모델링 |
 
-### Setup Notes
+</details>
+
+<details>
+<summary>Setup Notes</summary>
+
 ```bash
 sudo apt-get install git build-essential python-dev
 git clone https://github.com/adafruit/Adafruit_Python_PCA9685.git
 cd Adafruit_Python_PCA9685
 sudo python3 setup.py install
 ```
-
-기존 README의 데이터셋 이미지와 추가 설명은 위 내용에 통합해 정리했습니다.
 
 </details>

@@ -48,11 +48,11 @@ object_detection_robot은 객체 인식 결과를 바탕으로 로봇 팔을 제
 <details>
 <summary>Team</summary>
 
-| Name | Photo | Role |
-| --- | --- | --- |
-| 이성욱 | ![이성욱](https://github.com/lee-seong-wook/object_detection_robot/assets/130055880/9cc35f65-3f98-4a41-93a9-36c917efd2ab) | 로봇 동작 제어 및 객체 인식 개발 |
-| 이용진 | ![이용진](https://github.com/lee-seong-wook/object-detection-robot-/assets/130055880/b032aa51-f0d0-4354-b310-d57b3549b58a) | 로봇 동작 제어 및 객체 인식 개발 |
-| 이경현 | ![이경현](https://github.com/lee-seong-wook/object-detection-robot-/assets/130055880/01beb4ea-ef4f-4a5a-8c83-c5b6dc25552e) | 하드웨어 제작 및 모델링 |
+| Name | Role |
+| --- | --- |
+| 이성욱 | 로봇 동작 제어 및 객체 인식 개발 |
+| 이용진 | 로봇 동작 제어 및 객체 인식 개발 |
+| 이경현 | 하드웨어 제작 및 모델링 |
 
 </details>
 

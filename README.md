@@ -31,9 +31,9 @@ object_detection_robot은 객체 인식 결과를 바탕으로 로봇 팔을 제
 - 객체 인식 결과를 실제 분류 동작으로 연결하는 시스템 로직도 작성
 
 ## Implementation Notes
-- `USE HSV.py`: HSV 기반 색상 분류와 로봇 팔 제어 실험
-- `custom model_test.py`: 커스텀 YOLOv5 모델 추론 테스트
-- `robot arm.py`: 객체 인식 결과에 따른 서보모터 제어 로직
+- `use_hsv.py`: HSV 기반 색상 분류와 로봇 팔 제어 실험
+- `custom_model_test.py`: 커스텀 YOLOv5 모델 추론 테스트
+- `robot_arm.py`: 객체 인식 결과에 따른 서보모터 제어 로직
 - 로봇 팔은 SolidWorks 모델링 후 3D 프린팅 부품으로 제작했습니다.
 
 ## Project Gallery
